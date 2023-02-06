@@ -1,0 +1,122 @@
+[
+    {
+        "Id": 1,
+        "ProductDescription": "Aber",  
+        "ProductName": "Vali Veres AB1195",
+        "PriceDiscount": "45.12",
+        "PriceStandard": "78.70",
+        "PriceReduced": "-53%",
+        "ImgS": "freeship2.png",
+        "Img": "Valiveresa1.jpg"
+    },
+    {
+        "Id": 2,
+        "ProductDescription": "Lusetti",  
+        "ProductName": "Vali Cooper PP20",
+        "PriceDiscount": "92.16",
+        "PriceStandard": "229.99",
+        "PriceReduced": "-60%",
+        "ImgS": "freeship2.png",
+        "Img": "Valicoopera1.jpg"
+    },
+    {
+        "Id": 3,
+        "ProductDescription": "IT LUGGAGE",   
+        "ProductName": "Vali Pagoda IT16-2371-08",
+        "PriceDiscount": "189.03",
+        "PriceStandard": "357.05",
+        "PriceReduced": "-48%",
+        "ImgS": "freeship2.png",
+        "Img": "Valipagodaa1.jpg"
+    },
+    {
+        "Id": 4,
+        "ProductDescription": "Wisata",
+        "ProductName": "Vali Wisata WT6679",
+        "PriceDiscount": "41.12",
+        "PriceStandard": "83.01",
+        "PriceReduced": "-51%",
+        "ImgS": "freeship2.png",
+        "Img": "Valiwisataa1.jpg"
+    },
+    {
+        "Id": 5,
+        "ProductDescription": "Bruno Cavalli",
+        "ProductName": "Balo Cavalli 8689",
+        "PriceDiscount": "50.12",
+        "PriceStandard": "75.61",
+        "PriceReduced": "-30%",
+        "ImgS": "freeship2.png",
+        "Img": "Balocavallib1.jpg"
+    },
+    {
+        "Id": 6,
+        "ProductDescription": "Aber",
+        "ProductName": "Balo Mabel AB5186",
+        "PriceDiscount": "25.02",
+        "PriceStandard": "33.61",
+        "PriceReduced": "-30%",
+        "ImgS": "freeship2.png",
+        "Img": "Balomabelb1.jpg"
+    },
+    {
+        "Id": 7,
+        "ProductDescription": "President",
+        "ProductName": "Balo President P9179",
+        "PriceDiscount": "75.61",
+        "PriceStandard": "112.05",
+        "PriceReduced": "-43%",
+        "ImgS": "freeship2.png",
+        "Img": "Balopresidentb1.jpg"
+    },
+    {
+        "Id": 8,
+        "ProductDescription": "Santa Barbara",
+        "ProductName": "Balo Xenia BL118",
+        "PriceDiscount": "16.08",
+        "PriceStandard": "65.01",
+        "PriceReduced": "-48%",
+        "ImgS": "freeship2.png",
+        "Img": "Baloxeniab1.jpg"
+    },
+    {
+        "Id": 9,
+        "ProductDescription": "Santa Barbara",
+        "ProductName": "Handbag Coble SBT9049",
+        "PriceDiscount": "23.23",
+        "PriceStandard": "46,45",
+        "PriceReduced": "-50%",
+        "ImgS": "freeship2.png",
+        "Img": "HandBagcoblec1.jpg"
+    },
+    {
+        "Id": 10,
+        "ProductDescription": "Highland",
+        "ProductName": "Handbag Highland",
+        "PriceDiscount": "25.05",
+        "PriceStandard": "70.12",
+        "PriceReduced": "-60%",
+        "ImgS": "freeship2.png",
+        "Img": "HandBaghighlandc1.jpg"
+    },
+    {
+        "Id": 11,
+        "ProductDescription": "Knomo",
+        "ProductName": "Handbag Knomo",
+        "PriceDiscount": "553,63",
+        "PriceStandard": "1002",
+        "PriceReduced": "-48%",
+        "ImgS": "freeship2.png",
+        "Img": "HandBagknomoc1.jpg"
+    },
+    {
+        "Id": 12,
+        "ProductDescription": "Santa Barbara",
+        "ProductName": "Handbag Praza",
+        "PriceDiscount": "62.21",
+        "PriceStandard": "83.01",
+        "PriceReduced": "-23%",
+        "ImgS": "freeship2.png",
+        "Img": "HandBagprazac1.jpg"
+    }
+]

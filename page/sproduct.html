@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="../img/logo.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Mix Travel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header>
+      <a href="../page/index.html"><img src="../img/logo.png" class="logo" alt="picture" /></a>
+      <!-- Nav -->
+      <div>
+        <ul id="navbar">
+          <li><a class="active" href="../page/index.html">Home</a></li>
+          <li><a href="../page/shop.html">Shop</a></li>
+          <li><a href="../page/blog.html">Blog</a></li>
+          <li><a href="../page/about.html">About</a></li>
+          <li><a href="../page/contact.html">Contact</a></li>
+          <li>
+            <div class="search-box">
+              <input
+                class="search-txt"
+                type="text"
+                name=""
+                placeholder="Type to search"
+              />
+              <a class="search-btn" href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+          </li>
+          <li > 
+            <div class="cart-icon">
+              <p onclick="showcart()"
+                ><i id="lg-bag" class="fa-solid fa-cart-shopping"></i>
+                <span id="lg-bag" class="cart-number">0</span></a
+              >
+            </div>
+            <div id="showcart">
+              <table>
+                <tr>
+                  <th>ID</th>
+                  <th>Image</th>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Money ($)</th>
+                  <th>Delete </th>
+                </tr>
+                <tbody id="mycart"></tbody>
+              </table>
+              <br>
+              <a class="pay-btn" href="../page/paycart.html">Pay</a>
+              <button id="remove" onclick="removepr()">Remove</button>
+            </div>
+          </li>
+          <i id="close-bar" class="fa-solid fa-xmark"></i>
+        </ul>
+      </div>
+      <div id="mobile">
+        <div class="cart-icon">
+          <p onclick="showcart()"
+            ><i class="fa-solid fa-cart-shopping"></i>
+            <span id="cart-number">0</span></a
+          >
+        </div>
+        <i id="bar" class="fa-solid fa-list"></i>
+      </div>
+      <!-- End Nav  -->
+    </header>
+    <!-- End Header  -->
+
+    <!-- Product detail  -->
+    <section id="products-details">
+      <div class="main-wrapper">
+        <div class="container">
+          <div class="product-div">
+            <div class="product-div-left">
+              <div class="img-container">
+                <img src="../img/products/Valiveresa1.jpg" alt="watch" />
+              </div>
+              <div class="hover-container">
+                <div><img src="../img/products/Valiveresa1.jpg" /></div>
+                <div><img src="../img/products/Valiveresa2.jpg" /></div>
+                <div><img src="../img/products/Valiveresa3.jpg" /></div>
+                <div><img src="../img/products/Valiveresa4.jpg" /></div>
+                <div><img src="../img/products/Valiveresa5.jpg" /></div>
+              </div>
+            </div>
+            <div class="product-div-right">
+              <div class="product-name">
+                <h5>Vali Veres AB1195</h5>
+                <p>Trademark:<span>Aber</span></p>
+              </div>
+              <div class="product-price">
+                <span class="price-discount">$45.12</span>
+                <span class="price-standard">$78.70</span>
+                <span class="price-reduced">-53%</span>
+              </div>
+              <div class="product-select">
+                <select>
+                  <option selected>Select Size</option>
+                  <option value="1">20</option>
+                </select>
+              </div>
+              <div class="rating">
+                <input type="radio" name="star" id="star1" /><label
+                  for="star1"
+                ></label>
+                <input type="radio" name="star" id="star2" /><label
+                  for="star2"
+                ></label>
+                <input type="radio" name="star" id="star3" /><label
+                  for="star3"
+                ></label>
+                <input type="radio" name="star" id="star4" /><label
+                  for="star4"
+                ></label>
+                <input type="radio" name="star" id="star5" /><label
+                  for="star5"
+                ></label>
+              </div>
+              <div class="content-details">
+                <p class="product-description">
+                  Aber is a luggage brand specializing in the production of
+                  suitcases, backpacks and accompanying accessories. At a
+                  mid-range price, you can get a high-quality experience from an
+                  Aber product. Aber always focuses on their users, especially in
+                  Aber's designs there are always new points created by customers
+                  themselves.
+                </p>
+              </div>
+              <div class="btn-groups">
+                <button type="button" class="add-cart-btn">
+                  <i class="fas fa-shopping-cart"></i>add to cart
+                </button>
+                <button type="button" class="buy-now-btn">
+                  <i class="fas fa-wallet"></i>buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Product details  -->
+
+    <!-- Product list  -->
+    <section id="product1" class="section-p1">
+      <h2>Other products</h2>
+      <p>Summer Collection New Design</p>
+      <div id="products-container">
+        <div class="product">
+          <div class="row img imgPr">
+            <img src="../img/products/HandBagcoblec1.jpg" alt="" />
+          </div>
+          <div class="price">
+            <p class="price-discount">$<span>23.23</span></p>
+            <span class="price-standard">$46,45</span>
+            <span class="price-reduced">-50%</span>
+          </div>
+          <h4 class="trademark">Santa Barbara</h4>
+          <h4 class="name">Handbag Coble</h4>
+          <input type="number" name="soluong" min="1" max="10" value="1" />
+          <button onclick="addtocart(this)">Add To Cart</button>
+          <span class="freeship"
+            ><img src="../img/sale/freeship2.png" alt=""
+          /></span>
+          <div class="rating">
+            <input type="radio" name="star" id="star1" /><label
+              for="star1"
+            ></label>
+            <input type="radio" name="star" id="star2" /><label
+              for="star2"
+            ></label>
+            <input type="radio" name="star" id="star3" /><label
+              for="star3"
+            ></label>
+            <input type="radio" name="star" id="star4" /><label
+              for="star4"
+            ></label>
+            <input type="radio" name="star" id="star5" /><label
+              for="star5"
+            ></label>
+          </div>
+        </div>
+        <div class="product">
+          <div class="row img imgPr">
+            <img src="../img/products/HandBaghighlandc1.jpg" alt="" />
+          </div>
+          <div class="price">
+            <p class="price-discount">$<span>25.05</span></p>
+            <span class="price-standard">$70.12</span>
+            <span class="price-reduced">-60%</span>
+          </div>
+          <h4 class="trademark">Highland</h4>
+          <h4 class="name">Handbag Highland</h4>
+          <input type="number" name="soluong" min="1" max="10" value="1" />
+          <button onclick="addtocart(this)">Add To Cart</button>
+          <span class="freeship"
+            ><img src="../img/sale/freeship2.png" alt=""
+          /></span>
+          <div class="rating">
+            <input type="radio" name="star" id="star1" /><label
+              for="star1"
+            ></label>
+            <input type="radio" name="star" id="star2" /><label
+              for="star2"
+            ></label>
+            <input type="radio" name="star" id="star3" /><label
+              for="star3"
+            ></label>
+            <input type="radio" name="star" id="star4" /><label
+              for="star4"
+            ></label>
+            <input type="radio" name="star" id="star5" /><label
+              for="star5"
+            ></label>
+          </div>
+        </div>
+        <div class="product">
+          <div class="row img imgPr">
+            <img src="../img/products/HandBagknomoc1.jpg" alt="" />
+          </div>
+          <div class="price">
+            <p class="price-discount">$<span>553,63</span></p>
+            <span class="price-standard">$1002</span>
+            <span class="price-reduced">-48%</span>
+          </div>
+          <h4 class="trademark">Knomo</h4>
+          <h4 class="name">Handbag Knomo</h4>
+          <input type="number" name="soluong" min="1" max="10" value="1" />
+          <button onclick="addtocart(this)">Add To Cart</button>
+          <span class="freeship"
+            ><img src="../img/sale/freeship2.png" alt=""
+          /></span>
+          <div class="rating">
+            <input type="radio" name="star" id="star1" /><label
+              for="star1"
+            ></label>
+            <input type="radio" name="star" id="star2" /><label
+              for="star2"
+            ></label>
+            <input type="radio" name="star" id="star3" /><label
+              for="star3"
+            ></label>
+            <input type="radio" name="star" id="star4" /><label
+              for="star4"
+            ></label>
+            <input type="radio" name="star" id="star5" /><label
+              for="star5"
+            ></label>
+          </div>
+        </div>
+        <div class="product">
+          <div class="row img imgPr">
+            <img src="../img/products/HandBagprazac1.jpg" alt="" />
+          </div>
+          <div class="price">
+            <p class="price-discount">$<span>62.21</span></p>
+            <span class="price-standard">$83.01</span>
+            <span class="price-reduced">-23%</span>
+          </div>
+          <h4 class="trademark">Santa Barbara</h4>
+          <h4 class="name">Handbag Praza</h4>
+          <input type="number" name="soluong" min="1" max="10" value="1" />
+          <button onclick="addtocart(this)">Add To Cart</button>
+          <span class="freeship"
+            ><img src="../img/sale/freeship2.png" alt=""
+          /></span>
+          <div class="rating">
+            <input type="radio" name="star" id="star1" /><label
+              for="star1"
+            ></label>
+            <input type="radio" name="star" id="star2" /><label
+              for="star2"
+            ></label>
+            <input type="radio" name="star" id="star3" /><label
+              for="star3"
+            ></label>
+            <input type="radio" name="star" id="star4" /><label
+              for="star4"
+            ></label>
+            <input type="radio" name="star" id="star5" /><label
+              for="star5"
+            ></label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Product list  -->
+
+    <!-- footer  -->
+    <section id="footer">
+      <div class="row">
+        <div class="col">
+          <a href="#"
+            ><img class="logo" src="../img/logofooter.png" alt=""
+          /></a>
+          <p>
+            Come to us, you will have the best ever. Brand creates quality !
+          </p>
+        </div>
+
+        <div class="col">
+          <h3>
+            ABOUT US
+            <div class="underline"><span></span></div>
+          </h3>
+          <p>About Mix Travel</p>
+          <p>Recruitment</p>
+          <p>Store</p>
+          <p class="email-id">contact@mixtravel.com</p>
+          <h4>+84 - 328202***</h4>
+        </div>
+
+        <div class="col">
+          <h3>
+            Link Shop
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul class="link-shop">
+            <li><a class="active" href="../page/index.html">Home</a></li>
+            <li><a href="../page/shop.html">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="../page/about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h3>
+            Newsletter
+            <div class="underline"><span></span></div>
+          </h3>
+          <form>
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" placeholder="Enter your email id" required />
+            <button type="submit">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+          <div class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Easy Tutorials © 2022 - All Right Reserved</p>
+    </section>
+    <!-- end footer  -->
+    <script>
+      const allHoverImages = document.querySelectorAll(
+        ".hover-container div img"
+      );
+      const imgContainer = document.querySelector(".img-container");
+
+      window.addEventListener("DOMContentLoaded", () => {
+        allHoverImages[0].parentElement.classList.add("active");
+      });
+
+      allHoverImages.forEach((image) => {
+        image.addEventListener("mouseover", () => {
+          imgContainer.querySelector("img").src = image.src;
+          resetActiveImg();
+          image.parentElement.classList.add("active");
+        });
+      });
+
+      function resetActiveImg() {
+        allHoverImages.forEach((img) => {
+          img.parentElement.classList.remove("active");
+        });
+      }
+    </script>
+    <script src="../js/main.js"></script>
+    <script src="../js/product.js"></script>
+  </body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/paycart.css" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body >
+    <!-- Header  -->
+    <header>
+      <a href="../page/index.html"><img src="../img/logo.png" class="logo" alt="picture" /></a>
+      <!-- Nav -->
+      <div>
+        <ul id="navbar">
+          <li><a href="../page/index.html">Home</a></li>
+          <li><a  href="../page/shop.html">Shop</a></li>
+          <li><a href="../page/blog.html">Blog</a></li>
+          <li><a href="../page/about.html">About</a></li>
+          <li><a href="../page/contact.html">Contact</a></li>
+          <li>
+            <div class="search-box">
+              <input
+                class="search-txt"
+                type="text"
+                name=""
+                placeholder="Type to search"
+              />
+              <a class="search-btn" href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="cart-icon">
+              <p onclick="showcart()"
+                ><i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-number">0</span></a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- End Nav  -->
+    </header>
+    <!-- End Header  -->
+
+    <!-- Banner  -->
+    <section id="page-header2">
+      <h2>Congratulations on your successful order</h2>
+      <p>You can continue to shop at our store !</p>
+    </section>
+    <!-- End Banner  -->
+    <!-- pay cart  -->
+    <div class="cart-pay">
+      <div class="box-cart">
+          <div class="box-cart-2">
+            <form action="">
+                <div class="row">       
+                    <div id="infomation-checkout" class="col">        
+                        <h3 class="title">Billing address</h3>       
+                        <div class="inputBox">
+                            <span>Full name :</span>
+                            <input type="text" placeholder="john deo" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Email :</span>
+                            <input type="email" placeholder="example@example.com" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Address :</span>
+                            <input type="text" placeholder="room - street - locality" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>City :</span>
+                            <input type="text" placeholder="mumbai">
+                        </div>
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>State :</span>
+                                <input type="text" placeholder="india" required>
+                            </div>
+                            <div class="inputBox">
+                                <span>Telephone :</span>
+                                <input type="tel" placeholder="" required>
+                            </div>
+                        </div>
+                    </div>        
+                </div>       
+                <button type="submit" value="Proceed to checkout" class="submit-btn"><a style="text-decoration: none;color: #fff;font-weight: 600;" href="../page/shop.html">Keep buying</a></button>
+            </form>
+        </div>    
+        </div>
+      </div>
+    </div>
+    <!-- end pay cart  -->
+
+    <!-- reassurance about -->
+      <div class="reassurance">
+          <ul class="reassurance-container">
+            <li>
+              <img src="../img/about/giaohang.png" alt="" />
+              <p>Nationwide Delivery</p>
+            </li>
+          </ul>
+          <ul class="reassurance-container">
+            <li>
+              <img src="../img/about/giaohang2.png" alt="" />
+              <p>100% Secure Payment</p>
+            </li>
+          </ul>
+          <ul class="reassurance-container">
+            <li>
+              <img src="../img/about/giaohang3.png" alt="" />
+              <p>Absolute Warranty</p>
+            </li>
+          </ul>
+          <ul class="reassurance-container">
+            <li>
+              <img src="../img/about/giaohang4.png" alt="" />
+              <p>Free Customer Care</p>
+            </li>
+          </ul>
+          <ul class="reassurance-container">
+            <li>
+              <img src="../img/about/giaohang5.png" alt="" />
+              <p>Exclusive Distribution</p>
+            </li>
+          </ul>
+      </div>
+    <!-- reassurance about  -->
+
+    <!-- footer  -->
+    <section id="footer">
+      <div class="row">
+        <div class="col">
+          <a href="#"
+            ><img class="logo" src="../img/logofooter.png" alt=""
+          /></a>
+          <p>
+            Come to us, you will have the best ever. Brand creates quality !
+          </p>
+        </div>
+
+        <div class="col">
+          <h3>
+            ABOUT US
+            <div class="underline"><span></span></div>
+          </h3>
+          <p>About Mix Travel</p>
+          <p>Recruitment</p>
+          <p>Store</p>
+          <p class="email-id">contact@mixtravel.com</p>
+          <h4>+84 - 328202***</h4>
+        </div>
+
+        <div class="col">
+          <h3>
+            Link Shop
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul class="link-shop">
+            <li><a class="active" href="../page/index.html">Home</a></li>
+            <li><a href="../page/shop.html">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="../page/about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h3>
+            Newsletter
+            <div class="underline"><span></span></div>
+          </h3>
+          <form>
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" placeholder="Enter your email id" required />
+            <button type="submit">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+          <div class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Easy Tutorials © 2022 - All Right Reserved</p>
+    </section>
+    <!-- end footer  -->
+  </body>
+  <script src="../js/product.js"></script>
+  <script>
+    showinfomationcheckout();
+    // showpaycart();
+  </script>
+</html>
